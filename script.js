@@ -8,14 +8,14 @@ var text = document.getElementById("text");
 var j = 0;
 setInterval(() => {
     if (i < 16) {
-        textsize = 8 + textsize;
+        textsize = 6 + textsize;
         document.getElementById("text").style.fontSize = textsize;
         i++;
     }
     if (i == 16) {i = 32}
     if (i > 16) {
         textsize = 64;
-        textsize = 8 - textsize;
+        textsize = 6 - textsize;
         document.getElementById("text").style.fontSize = textsize;
         i = 1 - i;
     }
