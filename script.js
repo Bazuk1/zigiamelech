@@ -1,6 +1,6 @@
 
 var i = 0;
-var textsize = 32;
+var textsize = 48;
 var color1 = 5;
 var color2 = 5;
 var color3 = 5;
