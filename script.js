@@ -12,8 +12,8 @@ setInterval(() => {
         document.getElementById("text").style.fontSize = textsize;
         i++;
     }
-    if (i == 14) {i = 32}
-    if (i > 16) {
+    if (i == 14) {i = 28}
+    if (i > 14) {
         textsize = 64;
         textsize = 4 - textsize;
         document.getElementById("text").style.fontSize = textsize;
