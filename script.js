@@ -7,15 +7,15 @@ var color3 = 5;
 var text = document.getElementById("text");
 var j = 0;
 setInterval(() => {
-    if (i < 14) {
-        textsize = 4 + textsize;
+    if (i < 16) {
+        textsize = 6 + textsize;
         document.getElementById("text").style.fontSize = textsize;
         i++;
     }
-    if (i == 14) {i = 28}
-    if (i > 14) {
+    if (i == 16) {i = 28}
+    if (i > 16) {
         textsize = 64;
-        textsize = 4 - textsize;
+        textsize = 6 - textsize;
         document.getElementById("text").style.fontSize = textsize;
         i = 1 - i;
     }
